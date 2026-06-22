@@ -13,7 +13,7 @@ export function ClassBinding(){
             setbtnTheme('btn-light');
         } else {
             setTheme('border-dark');
-            setbtnTheme('btn-dark');
+            setbtnTheme('btn-dark'); 
         }
     }
 
@@ -34,4 +34,4 @@ export function ClassBinding(){
             </form>
         </div>
     )
-}        
+}         
