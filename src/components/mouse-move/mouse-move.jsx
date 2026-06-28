@@ -18,4 +18,4 @@ export function MouseMove()
             <img style={imgStyle} src="bullet.gif" width="50" height="50"/>
         </div>
     )
-}                      
+}                         
