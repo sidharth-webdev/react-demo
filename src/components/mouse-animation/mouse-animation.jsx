@@ -37,4 +37,4 @@ export function MouseAnimation(){
             <img src='logo192.png' onMouseDown={handMouseDown} onMouseOut={handMouseOut}  onMouseOver={handleMouseOver} style={initialState} />
         </div>
     )
-}         
+}          
