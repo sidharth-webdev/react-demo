@@ -27,7 +27,7 @@ export function FakestoreLogin(){
                 <dt>Password</dt>
                 <dd><input type="password" /></dd>
             </dl>
-            <button onClick={handleLoginClick} className="btn btn-warning">Login</button>
+            <button onClick={handleLoginClick} className="btn btn-warning">Login</button> 
         </div>
     )
 }         
