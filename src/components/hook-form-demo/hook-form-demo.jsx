@@ -38,7 +38,7 @@ export function HookFormDemo(){
                         }
                     </dd>
                 </dl>
-                <button type="submit">Register</button>
+                <button type="submit">Register</button>   
             </form>
         </div>
     )
