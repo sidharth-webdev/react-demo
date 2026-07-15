@@ -25,7 +25,7 @@ export function FormDemo(){
             Price: product.Price,
             Stock: product.Stock,
             City: product.City
-        })
+        }) 
     }
 
     function handlePriceChange(e){
