@@ -22,11 +22,11 @@ export function MouseEvents(){
 
     return(
         <div className="container-fluid">
-             <div className="row mt-4">
-                <div className="col-1">
+             <div className="row mt-4"> 
+                <div className="col-1"> 
                     {
                         mobileImages.map(item=>
-                            <div className="my-3" key={item.image}>
+                            <div className="my-3" key={item.image}> 
                                 <img onMouseOver={handleMouseOver} src={item.image} width="100%" />
                             </div>
                         )
