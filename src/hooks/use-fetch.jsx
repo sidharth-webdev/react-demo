@@ -13,4 +13,4 @@ export function useFetch(url){
     },[url]);
 
     return data;
-}     
+}       
