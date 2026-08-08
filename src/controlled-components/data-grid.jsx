@@ -60,7 +60,7 @@ export function DataGrid(props){
              <div className="d-flex">
                  {
                      props.data.map(record=>
-                         <div key={record} className="card m-2 p-2">
+                         <div key={record} className="card m-2 p-2"> 
                              <div className="card-header">
                                  { record[Object.keys(record)[0]] }
                              </div>
