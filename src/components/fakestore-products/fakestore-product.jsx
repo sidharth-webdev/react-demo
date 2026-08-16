@@ -68,7 +68,7 @@ export function FakestoreProducts()
                         <div className="col-1 d-flex flex-column justify-content-center align-items-center">
                             <button onClick={handlePrevClick} className="bi bi-chevron-left btn btn-dark"></button>
                         </div>
-                        <div className="col-10 text-center position-relative">
+                        <div className="col-10 text-center position-relative"> 
                             <div className="badge fs-6 position-absolute end-0 top-0 bg-danger rounded rounded-circle">
                                 {product.price.toLocaleString('en-us', {style:'currency', currency:'USD'})}
                             </div>
