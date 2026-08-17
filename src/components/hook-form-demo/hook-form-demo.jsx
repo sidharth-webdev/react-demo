@@ -11,7 +11,7 @@ export function HookFormDemo(){
 
     return(
         <div className="container-fluid">
-            <header className="mt-4">
+            <header className="mt-4"> 
                 <Navbar theme="bg-danger text-white" title="Shopper." menuItems={['Home', 'Shop', 'Catalog', 'Blog', 'Docs']} shortcuts={['bi bi-person', 'bi bi-cart4']} />
             </header>
             <section>
