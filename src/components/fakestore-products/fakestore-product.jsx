@@ -61,7 +61,7 @@ export function FakestoreProducts()
             <div className="card mt-4 w-50">
                 <div className="card-header text-center">
                     <div>{product.title}</div>
-                    <div className="mt-2 fw-bold">{status}</div>
+                    <div className="mt-2 fw-bold">{status}</div> 
                 </div>
                 <div className="card-body">
                     <div className="row">
