@@ -65,7 +65,7 @@ export function FakestoreProducts()
                 </div>
                 <div className="card-body">
                     <div className="row">
-                        <div className="col-1 d-flex flex-column justify-content-center align-items-center">
+                        <div className="col-1 d-flex flex-column justify-content-center align-items-center"> 
                             <button onClick={handlePrevClick} className="bi bi-chevron-left btn btn-dark"></button>
                         </div>
                         <div className="col-10 text-center position-relative"> 
@@ -87,6 +87,6 @@ export function FakestoreProducts()
                     <button onClick={handlePauseClick} className="btn btn-danger bi bi-pause ms-2"></button>
                 </div>
             </div>
-        </div>
+        </div>  
     )
 }             
