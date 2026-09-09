@@ -31,4 +31,4 @@ export function FakestoreIndex(){
             </BrowserRouter>
         </div>
     )
-}       
+}           
