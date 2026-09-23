@@ -22,7 +22,7 @@ export function DataBinding(){
      return(
         <div className="container-fluid">
             <div className="mt-4 row">
-               <div className="col-4">
+               <div className="col-4"> 
                  <img width="100%" src={product.image} height="450" />
                </div>
                <div className="col-8">
